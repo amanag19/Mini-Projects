@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072F707528D3022400EEDE98 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072F707428D3022400EEDE98 /* SettingsTableViewController.swift */; };
+		072F707728D31B7B00EEDE98 /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072F707628D31B7B00EEDE98 /* EditProfileTableViewController.swift */; };
+		072F707928D3325700EEDE98 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072F707828D3325700EEDE98 /* FileStorage.swift */; };
+		0792950428CDCCFC003B58FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792950328CDCCFC003B58FC /* AppDelegate.swift */; };
+		0792950628CDCCFC003B58FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792950528CDCCFC003B58FC /* SceneDelegate.swift */; };
+		0792950828CDCCFC003B58FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792950728CDCCFC003B58FC /* LoginViewController.swift */; };
+		0792950B28CDCCFC003B58FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0792950928CDCCFC003B58FC /* Main.storyboard */; };
+		0792950D28CDCCFD003B58FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0792950C28CDCCFD003B58FC /* Assets.xcassets */; };
+		0792951028CDCCFD003B58FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0792950E28CDCCFD003B58FC /* LaunchScreen.storyboard */; };
+		0792951828CDE86E003B58FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0792951728CDE86E003B58FC /* GoogleService-Info.plist */; };
+		0792965628CF9DF7003B58FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792965528CF9DF7003B58FC /* User.swift */; };
+		0792965828CFA871003B58FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792965728CFA871003B58FC /* Constants.swift */; };
+		0792982228D0C434003B58FC /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792982128D0C434003B58FC /* FCollectionReference.swift */; };
+		0792982528D0C645003B58FC /* FirebaseUserListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792982428D0C645003B58FC /* FirebaseUserListener.swift */; };
+		EA1B30FEA10B7950C7466D75 /* Pods_LetsChitChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2530FA05490E54E7022D42 /* Pods_LetsChitChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		072F707428D3022400EEDE98 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		072F707628D31B7B00EEDE98 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
+		072F707828D3325700EEDE98 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		0792950028CDCCFC003B58FC /* LetsChitChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsChitChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0792950328CDCCFC003B58FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0792950528CDCCFC003B58FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0792950728CDCCFC003B58FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0792950A28CDCCFC003B58FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0792950C28CDCCFD003B58FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0792950F28CDCCFD003B58FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0792951128CDCCFD003B58FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0792951728CDE86E003B58FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0792965528CF9DF7003B58FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0792965728CFA871003B58FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0792982128D0C434003B58FC /* FCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		0792982428D0C645003B58FC /* FirebaseUserListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUserListener.swift; sourceTree = "<group>"; };
+		14A839AFCA188445491AFEFB /* Pods-LetsChitChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChitChat.debug.xcconfig"; path = "Target Support Files/Pods-LetsChitChat/Pods-LetsChitChat.debug.xcconfig"; sourceTree = "<group>"; };
+		1D2530FA05490E54E7022D42 /* Pods_LetsChitChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChitChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D0FD84FDB3E20091867042 /* Pods-LetsChitChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChitChat.release.xcconfig"; path = "Target Support Files/Pods-LetsChitChat/Pods-LetsChitChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079294FD28CDCCFC003B58FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1B30FEA10B7950C7466D75 /* Pods_LetsChitChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072F707328D2EBA400EEDE98 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0792965728CFA871003B58FC /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		079294F728CDCCFC003B58FC = {
+			isa = PBXGroup;
+			children = (
+				0792950228CDCCFC003B58FC /* LetsChitChat */,
+				0792950128CDCCFC003B58FC /* Products */,
+				D489EFBC675C42D584F0FC4B /* Pods */,
+				B9371F704123F6AD53BBBF5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0792950128CDCCFC003B58FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0792950028CDCCFC003B58FC /* LetsChitChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0792950228CDCCFC003B58FC /* LetsChitChat */ = {
+			isa = PBXGroup;
+			children = (
+				0792982328D0C5C7003B58FC /* FirebaseHelpers */,
+				0792965428CF9DD9003B58FC /* Model */,
+				072F707328D2EBA400EEDE98 /* Helpers */,
+				0792950328CDCCFC003B58FC /* AppDelegate.swift */,
+				0792950528CDCCFC003B58FC /* SceneDelegate.swift */,
+				0792950728CDCCFC003B58FC /* LoginViewController.swift */,
+				072F707428D3022400EEDE98 /* SettingsTableViewController.swift */,
+				072F707628D31B7B00EEDE98 /* EditProfileTableViewController.swift */,
+				0792950928CDCCFC003B58FC /* Main.storyboard */,
+				0792950C28CDCCFD003B58FC /* Assets.xcassets */,
+				0792950E28CDCCFD003B58FC /* LaunchScreen.storyboard */,
+				0792951128CDCCFD003B58FC /* Info.plist */,
+				0792951728CDE86E003B58FC /* GoogleService-Info.plist */,
+			);
+			path = LetsChitChat;
+			sourceTree = "<group>";
+		};
+		0792965428CF9DD9003B58FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0792965528CF9DF7003B58FC /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0792982328D0C5C7003B58FC /* FirebaseHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				0792982128D0C434003B58FC /* FCollectionReference.swift */,
+				0792982428D0C645003B58FC /* FirebaseUserListener.swift */,
+				072F707828D3325700EEDE98 /* FileStorage.swift */,
+			);
+			path = FirebaseHelpers;
+			sourceTree = "<group>";
+		};
+		B9371F704123F6AD53BBBF5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2530FA05490E54E7022D42 /* Pods_LetsChitChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D489EFBC675C42D584F0FC4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14A839AFCA188445491AFEFB /* Pods-LetsChitChat.debug.xcconfig */,
+				26D0FD84FDB3E20091867042 /* Pods-LetsChitChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079294FF28CDCCFC003B58FC /* LetsChitChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0792951428CDCCFD003B58FC /* Build configuration list for PBXNativeTarget "LetsChitChat" */;
+			buildPhases = (
+				20A28B2588A9358FA2C25567 /* [CP] Check Pods Manifest.lock */,
+				079294FC28CDCCFC003B58FC /* Sources */,
+				079294FD28CDCCFC003B58FC /* Frameworks */,
+				079294FE28CDCCFC003B58FC /* Resources */,
+				39CAED931FBD44B9AB8AAB05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsChitChat;
+			productName = LetsChitChat;
+			productReference = 0792950028CDCCFC003B58FC /* LetsChitChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079294F828CDCCFC003B58FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					079294FF28CDCCFC003B58FC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 079294FB28CDCCFC003B58FC /* Build configuration list for PBXProject "LetsChitChat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 079294F728CDCCFC003B58FC;
+			productRefGroup = 0792950128CDCCFC003B58FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079294FF28CDCCFC003B58FC /* LetsChitChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079294FE28CDCCFC003B58FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0792951028CDCCFD003B58FC /* LaunchScreen.storyboard in Resources */,
+				0792951828CDE86E003B58FC /* GoogleService-Info.plist in Resources */,
+				0792950D28CDCCFD003B58FC /* Assets.xcassets in Resources */,
+				0792950B28CDCCFC003B58FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20A28B2588A9358FA2C25567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsChitChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39CAED931FBD44B9AB8AAB05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsChitChat/Pods-LetsChitChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsChitChat/Pods-LetsChitChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetsChitChat/Pods-LetsChitChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079294FC28CDCCFC003B58FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072F707928D3325700EEDE98 /* FileStorage.swift in Sources */,
+				0792982228D0C434003B58FC /* FCollectionReference.swift in Sources */,
+				0792965828CFA871003B58FC /* Constants.swift in Sources */,
+				0792965628CF9DF7003B58FC /* User.swift in Sources */,
+				0792950828CDCCFC003B58FC /* LoginViewController.swift in Sources */,
+				072F707528D3022400EEDE98 /* SettingsTableViewController.swift in Sources */,
+				072F707728D31B7B00EEDE98 /* EditProfileTableViewController.swift in Sources */,
+				0792950428CDCCFC003B58FC /* AppDelegate.swift in Sources */,
+				0792982528D0C645003B58FC /* FirebaseUserListener.swift in Sources */,
+				0792950628CDCCFC003B58FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0792950928CDCCFC003B58FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0792950A28CDCCFC003B58FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0792950E28CDCCFD003B58FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0792950F28CDCCFD003B58FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0792951228CDCCFD003B58FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0792951328CDCCFD003B58FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0792951528CDCCFD003B58FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A839AFCA188445491AFEFB /* Pods-LetsChitChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X249B2982R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetsChitChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aman.LetsChitChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0792951628CDCCFD003B58FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D0FD84FDB3E20091867042 /* Pods-LetsChitChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X249B2982R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetsChitChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aman.LetsChitChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079294FB28CDCCFC003B58FC /* Build configuration list for PBXProject "LetsChitChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0792951228CDCCFD003B58FC /* Debug */,
+				0792951328CDCCFD003B58FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0792951428CDCCFD003B58FC /* Build configuration list for PBXNativeTarget "LetsChitChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0792951528CDCCFD003B58FC /* Debug */,
+				0792951628CDCCFD003B58FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079294F828CDCCFC003B58FC /* Project object */;
+}
